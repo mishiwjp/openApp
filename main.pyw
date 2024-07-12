@@ -22,7 +22,7 @@ rootWidth = colNum*100+100
 rootHeight = math.ceil(len(appList)/colNum)*100+200
 posX = round((screenWidth-rootWidth)/2)
 posY =  round((screenHeight-rootHeight)/2)
-root.title('打开app-wjp')
+root.title('打开app')
 root.geometry(str(rootWidth)+"x"+str(rootHeight)+"+"+str(posX)+"+"+str(posY))
 # root.geometry("800x400+880+400")
 appFrm = tk.Frame(root)
